@@ -28,7 +28,7 @@ cohort(new Date('1/1/2014'), new Date('2/1/2014'), function (err, customers) {
 });
 ```
 
-And the `customers` object lets you query information about this cohort.
+And the returned `customers` object lets you dive deeper into the cohort.
 
 #### Number of Customers
 
@@ -73,7 +73,7 @@ customers.delinquent().count();
 
 #### Subscriptions
 
-You can learn about your active subscriptions too
+You can learn about your active subscriptions too:
 
 ```js
 customers.subscriptions().count();
@@ -117,7 +117,7 @@ And you can query the monthly recurring revenue  by subscription `start` within 
 customers.subscriptions().active().mrr(new Date('1/15/2014'), new Date('1/16/2014'));
 ```
 
-Remember that the montly recurring revenue does not equal charges. For example, if a customer upgrades from a $29 plan to a $79 plan today, they will pro-rated for the rest of their billing period. That means you did not make the $79 yet, but you'll make the difference next month. For hard cash, use charges.
+Remember that the montly recurring revenue does not equal charges. For example, if a customer upgrades from a $29 plan to a $79 plan today, they will pro-rated for the rest of their billing period. That means you did not make the $79 yet, but you'll make the difference next month. For hard cash, use [stripe-charges](https://github.com/segmentio/stripe-charges).
 
 #### Plans
 
