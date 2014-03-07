@@ -1,0 +1,26 @@
+{
+  "name": "stripe-cohort",
+  "version": "0.0.1",
+  "main": "./lib",
+  "repository": "git://github.com/segmentio/stripe-cohort.git",
+  "license": "MIT",
+  "description": "Query Stripe customers by cohort",
+  "keywords": [
+    "stripe",
+    "customers",
+    "cohort",
+    "API"
+  ],
+  "dependencies": {
+    "debug": "~0.7.4",
+    "unix-time": "~1.0.1",
+    "batch": "~0.5.0",
+    "range": "0.0.2",
+    "defaults": "~1.0.0",
+    "stripe": "~2.4.2",
+    "range-component": "~1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1"
+  }
+}
