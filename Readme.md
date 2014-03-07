@@ -55,8 +55,7 @@ customers.list()
     id: 'cus_2983jd92d2d',
     name: 'Patrick Collison',
     ..
-  }
-}
+  },
 ]
 ```
 or filter further by the customers' `created` date:
