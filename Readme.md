@@ -49,7 +49,7 @@ customers.count(new Date('1/15/2014'), new Date('1/24/2014'));
 ```js
 customers.list()
 ```
-```
+```js
 [
   {
     id: 'cus_2983jd92d2d',
