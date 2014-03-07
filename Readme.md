@@ -1,7 +1,7 @@
 
 # stripe-cohort
 
-  Create Stripe customer cohorts for a useful business overview.
+  Create [Stripe](https://stripe.com) customer cohorts for a useful business overview.
 
 ### Overview
 
