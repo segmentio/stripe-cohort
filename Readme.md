@@ -18,6 +18,12 @@ It currently supports the following stats (by cohort):
 
     $ npm install stripe-cohort
 
+## Setup
+
+```js
+var cohort = require('stripe-cohort')('sk_live_yourstripekeyhere');
+```
+
 ## Example
 
 Create a new Stripe cohort (by the customer's `created` date):
@@ -116,7 +122,7 @@ And you can query the monthly recurring revenue  by subscription `start` within 
 customers.subscriptions().active().mrr(new Date('1/15/2014'), new Date('1/16/2014'));
 ```
 
-Remember that the montly recurring revenue does not equal charges. For example, if a customer upgrades from a $29 plan to a $79 plan today, they will pro-rated for the rest of their billing period. That means you did not make the $79 yet, but you'll make the difference next month. For hard cash, use [stripe-charges](https://github.com/segmentio/stripe-charges).
+Remember that the monthly recurring revenue does not equal charges. For example, if a customer upgrades from a $29 plan to a $79 plan today, they will pro-rated for the rest of their billing period. That means you did not make the $79 yet, but you'll make the difference next month. For hard cash, use [stripe-charges](https://github.com/segmentio/stripe-charges).
 
 #### Plans
 
