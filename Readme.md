@@ -30,6 +30,12 @@ cohort(new Date('1/1/2014'), new Date('2/1/2014'), function (err, customers) {
 
 And the returned `customers` object lets you dive deeper into the cohort.
 
+#### Options
+
+You can include options as the second param when initializing a cohort.
+
+  * `ignoreStripeFees` (default:false) If `true`, this will include the Stripe fees in your MRR.
+
 #### Number of Customers
 
 You can query the total amount of customers returned:
