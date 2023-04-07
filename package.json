@@ -17,7 +17,7 @@
     "batch": "~0.5.0",
     "range": "0.0.2",
     "defaults": "~1.0.0",
-    "stripe": "~2.4.2",
+    "stripe": "~2.9.0",
     "range-component": "~1.0.0"
   },
   "devDependencies": {
