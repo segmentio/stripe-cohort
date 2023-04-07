@@ -12,7 +12,7 @@
     "API"
   ],
   "dependencies": {
-    "debug": "~0.7.4",
+    "debug": "~0.8.1",
     "unix-time": "~1.0.1",
     "batch": "~0.5.0",
     "range": "0.0.2",
